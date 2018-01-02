@@ -2,7 +2,7 @@ package com.experiments.intfvsabs;
 
 public interface ICar {
 
-    // all val always are public static final
+    // all val always are public static final (CONSTANTS)
     int ii = 3;
 
     // it can use default methods with implementation
