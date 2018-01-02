@@ -9,6 +9,7 @@ public class Starter {
         car.go(10);
         car.drive();
         car.beep();
+        ICar.speed();
 
         // we can use the variable in inherits
         System.out.println(Car.ii);

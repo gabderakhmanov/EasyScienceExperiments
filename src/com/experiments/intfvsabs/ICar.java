@@ -5,11 +5,17 @@ public interface ICar {
     // all val always are public static final
     int ii = 3;
 
-    // all methods always are public abstract
+    // it can use default methods with implementation
     default void beep(){
         System.out.println("beep");
     }
 
+    // it can use static methods with implementation
+    static void speed(){
+        System.out.println("speed up");
+    };
+
+    // all methods always are public abstract
     void go();
     void stop();
 
