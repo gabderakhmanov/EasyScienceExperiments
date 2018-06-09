@@ -10,5 +10,11 @@ public class WhatIsMain {
             System.out.println(arg);
         }
 
+        printRandomNumber();
+
+    }
+
+    static void printRandomNumber(){
+        System.out.println(Math.random());
     }
 }
