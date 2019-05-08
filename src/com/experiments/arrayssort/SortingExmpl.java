@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortingExmpl {
     
-    public static void main(String[] agr){
+    public static void main(String[] args){
         
         int[] nums = {6,3,9,3,1};
         String[] strgs = {"Artem", "artem", "artemka", "Artemka", "Lena", "Alex"};
